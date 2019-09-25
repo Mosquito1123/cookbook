@@ -11,7 +11,7 @@
 @interface StepTableViewCell : UITableViewCell
 @property (weak, nonatomic) IBOutlet UIImageView *imgView;
 
-@property (weak, nonatomic) IBOutlet UITextView *textView;
+@property (strong, nonatomic) IBOutlet UITextView *textView;
 
 @property (nonatomic, strong) UIFont *currFont;
 -(void)initText;

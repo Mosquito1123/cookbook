@@ -14,6 +14,7 @@
     // Initialization code
    // self.img.layer.cornerRadius=self.img.frame.size.width/2;
     //self.img.clipsToBounds=YES;
+    [super awakeFromNib];
     UIView *view=[[UIView alloc]init];
     [view setBackgroundColor:[UIColor whiteColor]];
     [self setSelectedBackgroundView:view];

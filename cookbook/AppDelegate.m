@@ -16,7 +16,7 @@
 #import "ConfigVC.h"
 #import "CalendarVC.h"
 #import <Reachability.h>
-#import <UMengAnalytics-NO-IDFA/MobClick.h>
+//#import <UMengAnalytics-NO-IDFA/MobClick.h>
 
 @interface AppDelegate ()
 
@@ -110,11 +110,11 @@
     
     return NO;
 }
-//UMeng统计
--(void)initUMeng{
-#warning 请注意替换成自己在友盟上的appKey  当然不替换也不影响功能
-    [MobClick startWithAppkey:@"56432ddb67e58ed0f7001a52" reportPolicy:BATCH channelId:nil];
-}
+////UMeng统计
+//-(void)initUMeng{
+//#warning 请注意替换成自己在友盟上的appKey  当然不替换也不影响功能
+//    [MobClick startWithAppkey:@"56432ddb67e58ed0f7001a52" reportPolicy:BATCH channelId:nil];
+//}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
@@ -125,7 +125,7 @@
 //    }
     [self initConst];
     [self initDB];
-    [self initUMeng];
+//    [self initUMeng];
     //config JHSDK
     [[JHOpenidSupplier shareSupplier] registerJuheAPIByOpenId:OpenID];
     
@@ -205,7 +205,7 @@
     }
 }
 
--(NSUInteger)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
+-(UIInterfaceOrientationMask)application:(UIApplication *)application supportedInterfaceOrientationsForWindow:(UIWindow *)window{
     return UIInterfaceOrientationMaskPortrait;
 }
 

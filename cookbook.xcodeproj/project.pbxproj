@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41613C5D7F1E052BF64AE51D /* Pods_cookbook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0140AA28B773C4EF37C7CC /* Pods_cookbook.framework */; };
 		9F452A9E1B774DBF003202B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F452A9D1B774DBF003202B3 /* main.m */; };
 		9F452AA11B774DBF003202B3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F452AA01B774DBF003202B3 /* AppDelegate.m */; };
 		9F452AA91B774DBF003202B3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F452AA81B774DBF003202B3 /* Images.xcassets */; };
@@ -39,7 +40,7 @@
 		9FDE08D11B7B476400D9F8D7 /* InfoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE08CF1B7B476400D9F8D7 /* InfoCollectionViewCell.m */; };
 		9FDE08D21B7B476400D9F8D7 /* InfoCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FDE08D01B7B476400D9F8D7 /* InfoCollectionViewCell.xib */; };
 		9FDE08D51B7B48B000D9F8D7 /* InfoCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FDE08D41B7B48B000D9F8D7 /* InfoCollectionViewController.m */; };
-		AD52036177CDB9223D6B828F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 020DF53DEA50E38959D6DCF5 /* libPods.a */; };
+		F357B907233B189D006F98B1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F357B906233B189D006F98B1 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,9 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020DF53DEA50E38959D6DCF5 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		5482050CA9FD5E5B360EA90A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		64B4DDCC6C1076A9AD97A576 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3F453333EA7D1E11BCD42C25 /* Pods-cookbook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbook.debug.xcconfig"; path = "Target Support Files/Pods-cookbook/Pods-cookbook.debug.xcconfig"; sourceTree = "<group>"; };
 		9F452A981B774DBF003202B3 /* cookbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cookbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F452A9C1B774DBF003202B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F452A9D1B774DBF003202B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -115,6 +114,9 @@
 		9FDE08D01B7B476400D9F8D7 /* InfoCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoCollectionViewCell.xib; sourceTree = "<group>"; };
 		9FDE08D31B7B48B000D9F8D7 /* InfoCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoCollectionViewController.h; sourceTree = "<group>"; };
 		9FDE08D41B7B48B000D9F8D7 /* InfoCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoCollectionViewController.m; sourceTree = "<group>"; };
+		DF0140AA28B773C4EF37C7CC /* Pods_cookbook.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cookbook.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E157439306A637A0D01E79AC /* Pods-cookbook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cookbook.release.xcconfig"; path = "Target Support Files/Pods-cookbook/Pods-cookbook.release.xcconfig"; sourceTree = "<group>"; };
+		F357B906233B189D006F98B1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +129,7 @@
 				9F452AD31B77504F003202B3 /* libc++.dylib in Frameworks */,
 				9F452AD11B774FE2003202B3 /* CoreLocation.framework in Frameworks */,
 				9F452ACA1B774F36003202B3 /* JuheApisSDK.a in Frameworks */,
-				AD52036177CDB9223D6B828F /* libPods.a in Frameworks */,
+				41613C5D7F1E052BF64AE51D /* Pods_cookbook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,8 +149,8 @@
 				9F452A9A1B774DBF003202B3 /* cookbook */,
 				9F452AB41B774DBF003202B3 /* cookbookTests */,
 				9F452A991B774DBF003202B3 /* Products */,
-				E72F6CAB238B7C48B7DCB66A /* Pods */,
 				FCB5247ED3DAB3A70345242E /* Frameworks */,
+				A0E8FE206C3F97CB85AD49C3 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -189,6 +191,7 @@
 				9F452AEC1B777476003202B3 /* CalendarVC.m */,
 				9FDCAD651B8768DB0044D94D /* Comm.h */,
 				9FDCAD661B8768DB0044D94D /* Comm.m */,
+				F357B906233B189D006F98B1 /* Launch Screen.storyboard */,
 			);
 			path = cookbook;
 			sourceTree = "<group>";
@@ -292,13 +295,13 @@
 			name = All;
 			sourceTree = "<group>";
 		};
-		E72F6CAB238B7C48B7DCB66A /* Pods */ = {
+		A0E8FE206C3F97CB85AD49C3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				64B4DDCC6C1076A9AD97A576 /* Pods.debug.xcconfig */,
-				5482050CA9FD5E5B360EA90A /* Pods.release.xcconfig */,
+				3F453333EA7D1E11BCD42C25 /* Pods-cookbook.debug.xcconfig */,
+				E157439306A637A0D01E79AC /* Pods-cookbook.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		FCB5247ED3DAB3A70345242E /* Frameworks */ = {
@@ -308,7 +311,7 @@
 				9F906F501B88B56200B81221 /* SystemConfiguration.framework */,
 				9F906F4E1B88B54C00B81221 /* Security.framework */,
 				9F906F4C1B88B54100B81221 /* QuartzCore.framework */,
-				020DF53DEA50E38959D6DCF5 /* libPods.a */,
+				DF0140AA28B773C4EF37C7CC /* Pods_cookbook.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -320,12 +323,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9F452ABB1B774DBF003202B3 /* Build configuration list for PBXNativeTarget "cookbook" */;
 			buildPhases = (
-				BCBF45043359732B99C15902 /* Check Pods Manifest.lock */,
+				CF3FD4864BE1B21A9984ED95 /* [CP] Check Pods Manifest.lock */,
 				9F452A941B774DBF003202B3 /* Sources */,
 				9F452A951B774DBF003202B3 /* Frameworks */,
 				9F452A961B774DBF003202B3 /* Resources */,
-				0DFE94D32461E51CD404A149 /* Copy Pods Resources */,
-				BECE19C88BEB32319F742AB9 /* Embed Pods Frameworks */,
+				5428D281757F6AF4ECE99BDF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -360,7 +362,7 @@
 		9F452A901B774DBF003202B3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "张逢阳";
 				TargetAttributes = {
 					9F452A971B774DBF003202B3 = {
@@ -375,7 +377,7 @@
 			};
 			buildConfigurationList = 9F452A931B774DBF003202B3 /* Build configuration list for PBXProject "cookbook" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -400,6 +402,7 @@
 				9FDE08C91B7B2F7C00D9F8D7 /* ImageAndTextTableViewCell.xib in Resources */,
 				9F766FEC1B7C78B5004CA294 /* StepTableViewCell.xib in Resources */,
 				9F766FF11B7C8C43004CA294 /* BurTableViewCell.xib in Resources */,
+				F357B907233B189D006F98B1 /* Launch Screen.storyboard in Resources */,
 				9F452ADD1B775BF6003202B3 /* Main.storyboard in Resources */,
 				9F452AAC1B774DBF003202B3 /* LaunchScreen.xib in Resources */,
 				9F452AA91B774DBF003202B3 /* Images.xcassets in Resources */,
@@ -418,49 +421,54 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0DFE94D32461E51CD404A149 /* Copy Pods Resources */ = {
+		5428D281757F6AF4ECE99BDF /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-cookbook/Pods-cookbook-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-cookbook/Pods-cookbook-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BCBF45043359732B99C15902 /* Check Pods Manifest.lock */ = {
+		CF3FD4864BE1B21A9984ED95 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-cookbook-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		BECE19C88BEB32319F742AB9 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -529,13 +537,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -543,6 +561,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -574,13 +593,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -607,7 +636,7 @@
 		};
 		9F452ABC1B774DBF003202B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64B4DDCC6C1076A9AD97A576 /* Pods.debug.xcconfig */;
+			baseConfigurationReference = 3F453333EA7D1E11BCD42C25 /* Pods-cookbook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -624,6 +653,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/cookbook/JuheApisSDK",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyu5062.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = cookbook;
 				PROVISIONING_PROFILE = "";
 			};
@@ -631,7 +661,7 @@
 		};
 		9F452ABD1B774DBF003202B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5482050CA9FD5E5B360EA90A /* Pods.release.xcconfig */;
+			baseConfigurationReference = E157439306A637A0D01E79AC /* Pods-cookbook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -648,6 +678,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/cookbook/JuheApisSDK",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyu5062.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = cookbook;
 				PROVISIONING_PROFILE = "";
 			};
@@ -668,6 +699,7 @@
 				);
 				INFOPLIST_FILE = cookbookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyu5062.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookbook.app/cookbook";
 			};
@@ -684,6 +716,7 @@
 				);
 				INFOPLIST_FILE = cookbookTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyu5062.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookbook.app/cookbook";
 			};

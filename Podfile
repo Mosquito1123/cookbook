@@ -1,8 +1,12 @@
-platform :ios, '7.0'
-pod "MJExtension", "~> 2.5.2"
-pod "SDWebImage", "~> 3.7.3"
-pod "MJRefresh", "~> 2.3.1"
-pod "MBProgressHUD", "~> 0.9.1"
-pod 'Reachability', '~> 3.2'
-pod 'FMDB', '~> 2.5'
-pod 'UMengAnalytics-NO-IDFA'
+platform :ios, '8.0'
+target 'cookbook' do
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+pod "MJExtension"
+pod "SDWebImage"
+pod "MJRefresh"
+pod "MBProgressHUD"
+pod 'Reachability'
+pod 'FMDB'
+#pod 'UMengAnalytics-NO-IDFA'
+end
